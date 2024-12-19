@@ -1,14 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search</title>
-</head>
-<body>
-    <form action="https://www.google.com/search">
-        <input type="text" name="q">
-        <input type="submit" value="Google Search">
-    </form>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Google Search</title>
+  </head>
+  <body>
+    <nav>
+      <a href="advanced.html">Advanced Search</a>
+      <a href="image.html">Image Search</a>
+    </nav>
+    <main>
+      <img alt="Google Logo" src="google logo.png" id="logo" />
+      <form action="https://www.google.com/search">
+        <div id="search-div">
+            <img alt="search-logo" src="search-icon.svg">
+            <input type="text" name="q" id="search-bar"/>
+        </div>
+        
+        <div id="buttons">
+            <input type="submit" value="Google Search" />
+            <input type="submit" value="I'm Feeling Lucky" name="btnI" />
+        </div>
+      </form>
+    </main>
+  </body>
 </html>
