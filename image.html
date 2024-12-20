@@ -1,11 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Search</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="image.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Google Search</title>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Google Search</a>
+    </nav>
+    <main>
+      <img alt="Google Images Logo" src="image logo.svg" id="logo" />
+      <form action="https://www.google.com/search">
+        <div id="search-div">
+            <img alt="search-logo" src="search-icon.svg">
+            <input type="hidden" name="tbm" value="isch"> 
+            <input type="text" name="q"  id="search-bar"/>
+            <button type="submit" name="sca_esv"><img alt="search button" src="search btn.svg"></button>
+        </div>
     
-</body>
+      </form>
+    </main>
+  </body>
 </html>
