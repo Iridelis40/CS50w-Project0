@@ -73,6 +73,7 @@
     align-items: center;
     background-color: white;
     border: none;
+    cursor: pointer;
   }
 
   #search-div button img {
